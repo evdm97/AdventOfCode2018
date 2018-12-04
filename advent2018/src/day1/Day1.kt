@@ -1,8 +1,6 @@
 package day1
 
 import AdventUtil
-import java.util.*
-import kotlin.collections.ArrayList
 
 fun main(args: Array<String>) {
     partOne()
@@ -10,7 +8,7 @@ fun main(args: Array<String>) {
 }
 
 fun partOne() {
-    val inputScanner = getDay1InputScanner()
+    val inputScanner = AdventUtil.getInputScanner("day1/input/input", "\n")
 
     var frequency = 0
 
@@ -24,27 +22,18 @@ fun partOne() {
 fun partTwo() {
     var frequency = 0
     val pastFrequencies = ArrayList<Int>()
-    val inputScanner = getDay1InputScanner()
-    val changeList = ArrayList<Int>()
-
-    while (inputScanner.hasNext()) {
-        changeList.add(inputScanner.next().toInt())
-    }
+    val frequencyChanges = AdventUtil.getInputArray("day1/input/input", "\n")
 
     while (!pastFrequencies.contains(frequency)) {
-        for (change: Int in changeList) {
+        for (change: String in frequencyChanges) {
             pastFrequencies.add(frequency)
 
-            frequency += change
+            frequency += change.toInt()
 
             if (pastFrequencies.contains(frequency)) {
-                print("solution to day 1 part 2 is: $frequency")
                 break
             }
         }
     }
-}
-
-fun getDay1InputScanner(): Scanner {
-    return Scanner(AdventUtil.getFile("day1/input/input")).useDelimiter("\n")
+    print("solution to day 1 part 2 is: $frequency")
 }
