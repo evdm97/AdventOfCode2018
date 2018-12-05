@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
 }
 
 fun partOne() {
-    val inputScanner = AdventUtil.getInputScanner("day1/input/input", "\n")
+    val inputScanner = AdventUtil.getInputScanner("day1/input", "\n")
 
     var frequency = 0
 
@@ -22,7 +22,7 @@ fun partOne() {
 fun partTwo() {
     var frequency = 0
     val pastFrequencies = ArrayList<Int>()
-    val frequencyChanges = AdventUtil.getInputArray("day1/input/input", "\n")
+    val frequencyChanges = AdventUtil.getInputArray("day1/input", "\n")
 
     while (!pastFrequencies.contains(frequency)) {
         for (change: String in frequencyChanges) {

@@ -3,18 +3,18 @@ package day2
 
 fun main(args: Array<String>) {
     partOne()
-    partTwo()
+//    partTwo()
 }
 
 fun partOne() {
-    val inputList = AdventUtil.getInputArray("day2/input/input", "\n")
+    val inputList = AdventUtil.getInputArray("day2/input", "\n")
 
-    var totalDoubleOccurrences = 0
-    var totalTripleOccurrences = 0
+    var totalDouble = 0
+    var totalTriple = 0
 
     for (item in inputList) {
-        var doubleWasIncremented = false
-        var tripleWasIncremented = false
+        var wordHasDouble = false
+        var wordHasTriple = false
 
         val itemCharacters = item.split("") as ArrayList
         itemCharacters.removeIf { it == "" }
@@ -29,22 +29,22 @@ fun partOne() {
             }
 
             when (characterOccurrence) {
-                2 -> if (!doubleWasIncremented) {
-                    totalDoubleOccurrences++
-                    doubleWasIncremented = true
+                2 -> if (!wordHasDouble) {
+                    totalDouble++
+                    wordHasDouble = true
                 }
-                3 -> if (!tripleWasIncremented) {
-                    totalTripleOccurrences++
-                    tripleWasIncremented = true
+                3 -> if (!wordHasTriple) {
+                    totalTriple++
+                    wordHasTriple = true
                 }
             }
         }
     }
-        println("solution to day 2 part 1 is: " + totalDoubleOccurrences * totalTripleOccurrences)
+        println("solution to day 2 part 1 is: " + totalDouble * totalTriple)
     }
 
     fun partTwo() {
-        val inputList = AdventUtil.getInputArray("day2/input/input", "\n")
+        val inputList = AdventUtil.getInputArray("day2/input", "\n")
 
         parentLoop@ for (item1 in inputList) {
             for (item2 in inputList) {
@@ -68,7 +68,7 @@ fun partOne() {
                 }
             }
         }
-        return true
+        return diffFound
     }
 
     fun String.returnCommonLetters(string: String): String {
