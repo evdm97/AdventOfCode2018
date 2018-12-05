@@ -1,7 +1,8 @@
 package day3
 
 fun main(args: Array<String>) {
-    partOne()
+//    partOne()
+    partTwo()
 }
 
 fun partOne(){
@@ -38,4 +39,42 @@ fun partOne(){
         }
     }
     println(overlappingInches)
+}
+
+
+fun partTwo(){
+    val inputList = AdventUtil.getInputArray("day3/input", "\n")
+
+    val claimList = ArrayList<Claim>()
+    val fabricInUse = ArrayList<SquareInchFabric>()
+
+    for(item in inputList){
+        val claim = Claim(item)
+        claimList.add(claim)
+
+        println("starting with claim #" + claim.id)
+
+        for (fabric in claim.getFabricList()){
+            var newFabricPiece = true
+
+            for(usedFabric in fabricInUse){
+                if(fabric.atSameLocation(usedFabric)) {
+                    newFabricPiece = false
+                    usedFabric.originalClaim.hasOverlap = true
+                    claim.hasOverlap = true
+                    break
+                }
+            }
+
+            if(newFabricPiece) {
+                fabricInUse.add(fabric)
+            }
+        }
+    }
+
+    for (claim in claimList){
+        if(!claim.hasOverlap){
+            println(claim.id)
+        }
+    }
 }

@@ -10,20 +10,17 @@ class Claim(claim: String) {
 
     var hasOverlap: Boolean = false
 
-    override fun toString(): String {
-        return "claim #$id: $inchesFromLeft inches from the left, $inchesFromTop inches from the top, $width inches wide, $height inches high"
-    }
-
     fun getFabricList(): ArrayList<SquareInchFabric> {
         val locations: ArrayList<SquareInchFabric> = ArrayList()
 
         for (x in 1..width) {
             for (y in 1..height) {
-                locations.add(SquareInchFabric(inchesFromLeft + x, inchesFromTop + y))
+                locations.add(SquareInchFabric(inchesFromLeft + x, inchesFromTop + y, this))
             }
         }
         return locations
     }
+
 
     init {
         val claimList = ArrayList(claim.split("[^0-9]".toRegex()))
@@ -35,5 +32,7 @@ class Claim(claim: String) {
 
         width = claimList[3].toInt()
         height = claimList[4].toInt()
+
+
     }
 }

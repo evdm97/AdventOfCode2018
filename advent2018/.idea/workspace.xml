@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4faeea3e-6f48-45d0-800c-f72a5be99677" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day1/exampleinput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day1/exampleinput2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/exampleinput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day2/exampleinput2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/Claim.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/Day3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/SquareInchFabric.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day3/exampleinput" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advent2018/META-INF/advent2018.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advent2018/META-INF/advent2018.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advent2018/day1/input/input" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advent2018/day2/input/input" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/Day1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day1/input/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1/input" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2/Day2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day2/input/input" beforeDir="false" afterPath="$PROJECT_DIR$/src/day2/input" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/Claim.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/Claim.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/Day3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day3/SquareInchFabric.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day3/SquareInchFabric.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,18 +35,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Day3.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Day3.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day3/Day3.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            <state relative-caret-position="-129">
+              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exampleinput" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day3/exampleinput">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Claim.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day3/Claim.kt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquareInchFabric.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day3/SquareInchFabric.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="92" lean-forward="true" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day3/input">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="1373" lean-forward="true" selection-start-line="1373" selection-end-line="1373" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -93,18 +111,18 @@
         <option value="$PROJECT_DIR$/src/day3/claim.kt" />
         <option value="$PROJECT_DIR$/src/day3/input" />
         <option value="$PROJECT_DIR$/src/day2/Day2.kt" />
-        <option value="$PROJECT_DIR$/src/day3/SquareInchFabric.kt" />
         <option value="$PROJECT_DIR$/src/day3/exampleinput" />
         <option value="$PROJECT_DIR$/src/day1/exampleinput" />
         <option value="$PROJECT_DIR$/src/day1/exampleinput2" />
+        <option value="$PROJECT_DIR$/src/day3/SquareInchFabric.kt" />
         <option value="$PROJECT_DIR$/src/day3/Claim.kt" />
         <option value="$PROJECT_DIR$/src/day3/Day3.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="972" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -301,23 +319,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="972" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3278867" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50053304" side_tool="true" weight="0.32897604" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49946696" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.49946696" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="CheckStyle" order="0" weight="0.32893288" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32893288" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.31469297" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.15298508" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -331,7 +350,6 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32893288" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -569,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day3/SquareInchFabric.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AdventUtil.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -583,13 +594,6 @@
           <folding>
             <element signature="e#0#101#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day3/input">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1300" column="22" selection-start-line="1300" selection-start-column="22" selection-end-line="1300" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -628,20 +632,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day3/exampleinput">
+    <entry file="file://$PROJECT_DIR$/src/day3/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="1373" lean-forward="true" selection-start-line="1373" selection-end-line="1373" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3/SquareInchFabric.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="92" lean-forward="true" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day3/Claim.kt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day3/Day3.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="-129">
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3/exampleinput">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
