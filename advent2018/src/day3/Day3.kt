@@ -5,8 +5,8 @@ fun main(args: Array<String>) {
     partTwo()
 }
 
-fun partOne(){
-    val inputList = AdventUtil.getInputArray("day3/input", "\n")
+private fun partOne(){
+    val inputList = AdventUtil.getInputArray("day3/input")
     var overlappingInches = 0
 
     val fabricInUse = ArrayList<SquareInchFabric>()
@@ -42,8 +42,8 @@ fun partOne(){
 }
 
 
-fun partTwo(){
-    val inputList = AdventUtil.getInputArray("day3/input", "\n")
+private fun partTwo(){
+    val inputList = AdventUtil.getInputArray("day3/input")
 
     val claimList = ArrayList<Claim>()
     val fabricInUse = ArrayList<SquareInchFabric>()

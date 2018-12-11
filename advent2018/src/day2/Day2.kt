@@ -6,8 +6,8 @@ fun main(args: Array<String>) {
 //    partTwo()
 }
 
-fun partOne() {
-    val inputList = AdventUtil.getInputArray("day2/input", "\n")
+private fun partOne() {
+    val inputList = AdventUtil.getInputArray("day2/input")
 
     var totalDouble = 0
     var totalTriple = 0
@@ -43,8 +43,8 @@ fun partOne() {
         println("solution to day 2 part 1 is: " + totalDouble * totalTriple)
     }
 
-    fun partTwo() {
-        val inputList = AdventUtil.getInputArray("day2/input", "\n")
+private fun partTwo() {
+        val inputList = AdventUtil.getInputArray("day2/input")
 
         parentLoop@ for (item1 in inputList) {
             for (item2 in inputList) {

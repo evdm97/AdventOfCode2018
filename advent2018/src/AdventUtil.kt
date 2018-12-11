@@ -5,11 +5,11 @@ import kotlin.collections.ArrayList
 
 object AdventUtil {
 
-    fun getFile(pathFromSrc: String) : File {
+    fun getFile(pathFromSrc: String): File {
         return File(Paths.get("src/$pathFromSrc").toAbsolutePath().toString())
     }
 
-    fun scannerToArray(scanner: Scanner) : ArrayList<String>{
+    fun scannerToArray(scanner: Scanner): ArrayList<String> {
         val resultArray = ArrayList<String>()
         while (scanner.hasNext()) {
             resultArray.add(scanner.next())
@@ -17,14 +17,15 @@ object AdventUtil {
         return resultArray
     }
 
-    fun getInputArray(pathFromSrc: String, delimiter: String): ArrayList<String> {
+    fun getInputArray(pathFromSrc: String, delimiter: String = "\n"): ArrayList<String> {
         return scannerToArray(getInputScanner(pathFromSrc, delimiter))
     }
 
-    fun getInputScanner(pathFromSrc: String, delimiter: String) : Scanner{
+    fun getInputScanner(pathFromSrc: String, delimiter: String="\n"): Scanner {
         return Scanner(getFile(pathFromSrc)).useDelimiter(delimiter)
     }
-    fun getInputScanner(file: File, delimiter: String) : Scanner{
+
+    fun getInputScanner(file: File, delimiter: String="\n"): Scanner {
         return Scanner(file).useDelimiter(delimiter)
     }
 }
